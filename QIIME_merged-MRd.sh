@@ -1,0 +1,4 @@
+#! /bin/bash
+export QIIME_CONFIG_FP=$HOME/.qiime_config
+export PATH=${PATH}:/usr/local/python/2.7.2/bin
+python2.7 /usr/local/python/2.7.2/bin/merge_otu_tables.py -i /home/ekllab/jljoyner/analysis_749749_fastq/Data/OTUs/biom/S17-otu_table.biom,/home/ekllab/jljoyner/analysis_749749_fastq/Data/OTUs/biom/S16-otu_table.biom,/home/ekllab/jljoyner/analysis_749749_fastq/Data/OTUs/biom/S15-otu_table.biom,/home/ekllab/jljoyner/analysis_749749_fastq/Data/OTUs/biom/S14-otu_table.biom,/home/ekllab/jljoyner/analysis_749749_fastq/Data/OTUs/biom/S13-otu_table.biom,/home/ekllab/jljoyner/analysis_749749_fastq/Data/OTUs/biom/S12-otu_table.biom -o /home/ekllab/jljoyner/analysis_749749_fastq/Data/OTUs/biom/MR-merged_otus-d.biom

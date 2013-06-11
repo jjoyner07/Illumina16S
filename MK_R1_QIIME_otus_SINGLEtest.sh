@@ -1,0 +1,1 @@
+python2.7 /usr/local/python/2.7.2/bin/pick_otus_through_otu_table.py -i /home/ekllab/jljoyner/analysis_749749_fastq/Data/Intensities/BaseCalls/Test/MK1_S50_L001_R1_001.fastq.Trimmed.QualFiltered.ArtFiltered.fasta -o /home/ekllab/jljoyner/analysis_749749_fastq/Data/Intensities/BaseCalls/Test/MK1_S50_L001_R1_001.fastq.Trimmed.QualFiltered.ArtFiltered.fasta.otus
