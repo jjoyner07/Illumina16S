@@ -1,0 +1,3 @@
+#!/bin/bash
+cd working_directory
+time java -jar /usr/local/trimmomatic/0.27/trimmomatic-0.27.jar SE -threads 4 -phred33 -trimlog S50-trimlog /home/ekllab/jljoyner/analysis_749749_fastq/Data/Intensities/Run1/MK1_S50_L001_R1_001.fastq /home/ekllab/jljoyner/analysis_749749_fastq/Data/WorkingSeqs/MK1_S50_QualTrim.fastq ILLUMINACLIP:/home/ekllab/jljoyner/analysis_749749_fastq/Illumina-CapAdaptor.fasta:2:30:10 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:100
